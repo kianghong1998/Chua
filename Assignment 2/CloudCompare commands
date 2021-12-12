@@ -1,0 +1,6 @@
+# To install CloudCompare from Snap store
+snap install core
+sudo snap install cloudcompare
+
+# To run CloudCompare software
+cloudcompare.CloudCompare
