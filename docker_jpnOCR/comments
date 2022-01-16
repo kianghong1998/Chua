@@ -1,0 +1,10 @@
+. venv/bin/activate
+sudo chmod 666 /var/run/docker.sock
+pip freeze > requirements.txt
+docker build -t python-ocr .
+docker run -p 8000:8000 python-ocr
+
+
+#new terminal
+# cd ~/Desktop/Chua_Kiang_Hong_A18MJ0029/docker_jpnOCR
+docker ps
